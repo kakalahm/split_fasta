@@ -27,3 +27,4 @@ if __name__ == "__main__":
     for ii, sub_list in enumerate(all_lists):
         with open("new_sub_file_{:03d}.fa".format(ii), "w") as f:
             f.write("".join(sub_list))
+            #用.join函数将列表里的元素转成字符串并合并到一起
